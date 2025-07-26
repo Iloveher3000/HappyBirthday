@@ -11,18 +11,41 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `My Dearest Madam Jii,
+    const letterText = `To my Lovely Jaan, 
+HAPPIEESSTT BIRTHDAAY JAANU, this is a letter from the deep of my heart, I cant express how lucky and grateful I am to have a wifey like you, thats why i tried my best by writing a poem, hope you like it.
+You Are MINE Always ✨💖
 
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
+You are moonlight to my dark nights 🌙,
+A calming glow in silent heights.
+And sunshine to my waking skies ☀️,
+The first hello when I open my eyes 👀.
 
-You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
+My mornings bloom with your sweet “hi” 🌼,
+And end in peace with your soft “goodbye” 🌌.
+You're the soul within my weary frame 🫀,
+Without you near, I’m not the same.
 
-Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
+Like Bluetooth to my tangled tunes 🎧,
+You sync with me in sun and moons 🌞🌝.
+You bring me colors when I feel grey 🎨,
+A spark of joy in every day 💫.
 
-Happy Birthday, beautiful soul! 🎂✨
+You're my rhythm, my steady beat 🥁,
+My favorite song on repeat 🎶.
+In storms, you're shelter, safe and wide ⛱️,
+In restless times, my quiet guide 🧭.
 
-With all my love and warmest wishes,
-Forever Yours 💕`
+Like stars that shimmer when all seems still 🌠,
+You light me up, you always will 💡.
+You're the answer I didn’t seek 🔍,
+The strength I find when I feel weak 💪.
+
+You’re my muse, my peace, my fight ✍️🕊️⚔️,
+My calm in day, my dream at night 😌🌙.
+Every word I write is true—✒️
+My world begins and ends with you ❤️🌍.
+
+I love you a lot lot lot lot lot lot lot lot lot my baby, my love, and i want to bring the world for you and treat you like my princess, soo once again i want to tell you Happier Birthday (Cause the happiest birthday will be after we are married to each other), and just to let you know YOU ARE ONLY MINE, and I DONT SHARE WHATS MINE, soo VERYY HAPPY BIRTHDAYY ONLY MINE DEAR PRINCESS.`
 
     useEffect(() => {
         if (showText) {
@@ -42,7 +65,7 @@ Forever Yours 💕`
                         colors: ["#ff69b4", "#ff1493", "#9370db", "#8a2be2", "#ffd700"],
                     })
                 }
-            }, 30)
+            }, 75)
 
             return () => clearInterval(timer)
         }

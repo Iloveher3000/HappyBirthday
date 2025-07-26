@@ -74,7 +74,7 @@ export default function Countdown({ birthdayDate, onComplete }) {
                 >
                     Birthday Countdown
                 </motion.h1>
-                <p className="text-lg text-purple-300">The magical moment approaches...</p>
+                <p className="text-lg text-purple-300">FEW MOMENTS TOO MY BABY's BIRTHDAY</p>
             </motion.div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-4xl w-full">

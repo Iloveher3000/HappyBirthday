@@ -11,8 +11,9 @@ import 'swiper/css/pagination'
 export default function PhotoGallery({ onNext }) {
 
     const photos = [
-        { id: 1, src: "/images/1.jpg" },
-        { id: 2, src: "/images/2.jpg" },
+        { id: 1, src: "/images/1.jpeg" },
+        { id: 2, src: "/images/2.jpeg" },
+        { id: 3, src: "/images/3.jpeg" }
     ]
 
     return (
@@ -41,9 +42,9 @@ export default function PhotoGallery({ onNext }) {
                 </motion.div>
 
                 <h1 className="text-4xl md:text-6xl py-1 md:py-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 mb-6">
-                Moments with You 
+                TO MY MEDHU, My LILY (My Love, I Love You)
                 </h1>
-                <p className="text-xl text-purple-300">Beautiful moments with Madam Jii 📸</p>
+                <p className="text-xl text-purple-300">A flower for my Flower(fool😁)📸</p>
             </motion.div>
 
             {/* Cube Gallery */}
@@ -84,7 +85,7 @@ export default function PhotoGallery({ onNext }) {
                     className="bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 hover:from-pink-500 hover:via-purple-500 hover:to-indigo-500 text-white text-lg px-8 py-4 rounded-full shadow-xl border-2 border-white/70 transition-all duration-300 hover:scale-[103%]"
                 >
                     <motion.div className="flex items-center space-x-2" whileHover={{ x: 5 }}>
-                        <span>One Last Thing</span>
+                        <span>A word from my heart awaitss, click it</span>
                         <ArrowRight className="w-5 h-5" />
                     </motion.div>
                 </button>
